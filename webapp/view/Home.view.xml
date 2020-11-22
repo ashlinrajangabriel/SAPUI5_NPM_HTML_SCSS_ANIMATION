@@ -1,0 +1,39 @@
+<mvc:View
+    controllerName="loc.modloc.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+					<Panel>
+					<html:header class="header">
+						<html:div class = "logo-box">
+							<html:img src = "img/logo-white.png" class="logo">
+							</html:img>
+						</html:div>
+
+						<html:div class="text-box"> 
+						<html:h1 class="heading-primary"> 
+								<html:span class="heading-primary-main"> Outdoors </html:span>
+								<html:span class="heading-primary-sub"> is where life happens</html:span>
+
+						</html:h1>
+
+						<html:a href="#" class="btn btn-white btn-animated">Discover your tours.</html:a>
+
+						</html:div>
+							
+					</html:header>
+				
+					</Panel>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
